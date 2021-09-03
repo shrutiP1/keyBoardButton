@@ -1,0 +1,16 @@
+PODS:
+  - keyBoardButton (0.1.0)
+
+DEPENDENCIES:
+  - keyBoardButton (from `../`)
+
+EXTERNAL SOURCES:
+  keyBoardButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  keyBoardButton: 332fe8a3eb0530a24763cdb1a3443091fd1602bb
+
+PODFILE CHECKSUM: 652f6749377bb1dc309f0ecd6412fff3af348b4e
+
+COCOAPODS: 1.10.1

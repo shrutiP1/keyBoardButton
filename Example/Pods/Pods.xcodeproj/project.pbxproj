@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12339B29C60F6E8ADF45830A2D985325 /* Pods-keyBoardButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF9B46E75F95D9B6E41292138BA682C /* Pods-keyBoardButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3194C5E7B48C74C5EE6CF7BCFD159A6B /* keyBoardButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6AFC549741A34B9F93653543B52AB5 /* keyBoardButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34E26800B073FB975D5047D992FDCDD6 /* Pods-keyBoardButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 577918C9A891EA678454563FD9069005 /* Pods-keyBoardButton_Tests-dummy.m */; };
+		6FD19CEBF0D3C7F4D74DE8E177F4F976 /* keyBoardButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB01CCA4328F96583A9408108A99C4 /* keyBoardButton-dummy.m */; };
+		8A3645FAD2CDC71AF4EF8FD4FBDF42B5 /* Pods-keyBoardButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C452FAE9274816E0CCABC2AF01903F0 /* Pods-keyBoardButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9178BAF653D1DD7966890D4483471A6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB9380E577E5723B6F10778BEA62D38B /* Pods-keyBoardButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F04E3AF807099AF7027F0951C01479CE /* Pods-keyBoardButton_Example-dummy.m */; };
+		CFD0B7981F70B0FAB7353D6F7D761846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D4448A9626E1D903003ABFDB /* keyBoardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4448A9526E1D903003ABFDB /* keyBoardButton.swift */; };
+		E4CAC4E9632B92A31554B30C19F52FB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83E77A4AE4740C5CFA139DFDD906AE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21177ED592599D7E759839979931DB6;
+			remoteInfo = keyBoardButton;
+		};
+		A7960D8B8E5BCFFAB51A34C7BF3F2FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC6286EEC976AB0CEAD1B568EEC8945;
+			remoteInfo = "Pods-keyBoardButton_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AF9B46E75F95D9B6E41292138BA682C /* Pods-keyBoardButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-keyBoardButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		1462F2CA4946E35A8BC45465AC18ED70 /* Pods-keyBoardButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-keyBoardButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F68F960F30A4BCC1144C349C6C5205C /* keyBoardButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "keyBoardButton-prefix.pch"; sourceTree = "<group>"; };
+		404F89317582C02959C9F7933CCDC630 /* keyBoardButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = keyBoardButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C08885EB605997D0B96BFEABC867FB /* keyBoardButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = keyBoardButton.debug.xcconfig; sourceTree = "<group>"; };
+		4ABBEA0A2E5FA7D0740D3A93409DCF9A /* Pods_keyBoardButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_keyBoardButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C452FAE9274816E0CCABC2AF01903F0 /* Pods-keyBoardButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-keyBoardButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		55CAAA5D7379C3619476F40BAECD5724 /* Pods-keyBoardButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-keyBoardButton_Example.modulemap"; sourceTree = "<group>"; };
+		577918C9A891EA678454563FD9069005 /* Pods-keyBoardButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-keyBoardButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		5BA7C56148BDD35DFF42F9CEBC709553 /* Pods-keyBoardButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keyBoardButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63755855DAA60E9F0A10F0F8FD19A8CB /* Pods-keyBoardButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keyBoardButton_Example-Info.plist"; sourceTree = "<group>"; };
+		641811E33B9EF45723B4E45FACB1088F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6D7AA1A0334273E889E860CAFBD7E3F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71CB01CCA4328F96583A9408108A99C4 /* keyBoardButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "keyBoardButton-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8643F05FB4A62DF3335DB9B45AD6CFED /* keyBoardButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "keyBoardButton-Info.plist"; sourceTree = "<group>"; };
+		87E8CAC544E51C8BA00E55436DCE8427 /* keyBoardButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = keyBoardButton.release.xcconfig; sourceTree = "<group>"; };
+		889F253F3A905B0E31E8647490FCC309 /* Pods-keyBoardButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keyBoardButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		89CA94A28BD62D01FF3930648D5B932D /* Pods-keyBoardButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keyBoardButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B3D213A8BC04310183B312C895A64AF /* Pods-keyBoardButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keyBoardButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF37B46F6FD95BB7F9D8C547A69B30B /* keyBoardButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = keyBoardButton.modulemap; sourceTree = "<group>"; };
+		90E6BA1D53AEC4752AEAAEB4A173F406 /* keyBoardButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = keyBoardButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A38A98C31334538DECA9C2BBE09D0C25 /* Pods-keyBoardButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keyBoardButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AF6AFC549741A34B9F93653543B52AB5 /* keyBoardButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "keyBoardButton-umbrella.h"; sourceTree = "<group>"; };
+		B4B911CBB63369316862D6F810F392D2 /* Pods-keyBoardButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keyBoardButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5BC98FCFC2228606E194EB028D9ACE /* Pods-keyBoardButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-keyBoardButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE006F912F6DB97D54E64E7080CF4EC3 /* Pods-keyBoardButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-keyBoardButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D4448A9526E1D903003ABFDB /* keyBoardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyBoardButton.swift; sourceTree = "<group>"; };
+		E5D28D4116FB010A4B5367C6126F9B5F /* Pods-keyBoardButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-keyBoardButton_Tests.modulemap"; sourceTree = "<group>"; };
+		F04E3AF807099AF7027F0951C01479CE /* Pods-keyBoardButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-keyBoardButton_Example-dummy.m"; sourceTree = "<group>"; };
+		F162DAD4B2971C33F265E5C045FF4DB6 /* Pods_keyBoardButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_keyBoardButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EEF90454F9CFF3FBB790CA54C7D546 /* Pods-keyBoardButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keyBoardButton_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180F04599BE823FD0BA3163021F8B1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9178BAF653D1DD7966890D4483471A6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F737F014844C4F4EA7B2E16C1330AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD0B7981F70B0FAB7353D6F7D761846 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E9DF99D3290081F6212AC43D3F83C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CAC4E9632B92A31554B30C19F52FB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16FE053DF4B3D843B61871035736F0A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EF37B46F6FD95BB7F9D8C547A69B30B /* keyBoardButton.modulemap */,
+				71CB01CCA4328F96583A9408108A99C4 /* keyBoardButton-dummy.m */,
+				8643F05FB4A62DF3335DB9B45AD6CFED /* keyBoardButton-Info.plist */,
+				1F68F960F30A4BCC1144C349C6C5205C /* keyBoardButton-prefix.pch */,
+				AF6AFC549741A34B9F93653543B52AB5 /* keyBoardButton-umbrella.h */,
+				40C08885EB605997D0B96BFEABC867FB /* keyBoardButton.debug.xcconfig */,
+				87E8CAC544E51C8BA00E55436DCE8427 /* keyBoardButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/keyBoardButton";
+			sourceTree = "<group>";
+		};
+		1F3927AF5B1A7DD54CF7A095CEA7A269 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74508B74B9420F7EE84188E1B15FAFBA /* keyBoardButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		27740CD09EEF7FD5D7ABF833CCE252A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC1C98097FD0F88F28C79F714EB50DC4 /* Pods-keyBoardButton_Example */,
+				EDF9A5E90C3614E7DC1E713CC0BE4B23 /* Pods-keyBoardButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4CDCB3866416A36978DA5B330835D709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				404F89317582C02959C9F7933CCDC630 /* keyBoardButton.framework */,
+				F162DAD4B2971C33F265E5C045FF4DB6 /* Pods_keyBoardButton_Example.framework */,
+				4ABBEA0A2E5FA7D0740D3A93409DCF9A /* Pods_keyBoardButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		74508B74B9420F7EE84188E1B15FAFBA /* keyBoardButton */ = {
+			isa = PBXGroup;
+			children = (
+				D4448A9426E1D83C003ABFDB /* Classes */,
+				AEBAE98904ED9A3FF5BE8507A5EBD76B /* Pod */,
+				16FE053DF4B3D843B61871035736F0A4 /* Support Files */,
+			);
+			name = keyBoardButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AEBAE98904ED9A3FF5BE8507A5EBD76B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				90E6BA1D53AEC4752AEAAEB4A173F406 /* keyBoardButton.podspec */,
+				641811E33B9EF45723B4E45FACB1088F /* LICENSE */,
+				6D7AA1A0334273E889E860CAFBD7E3F9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1F3927AF5B1A7DD54CF7A095CEA7A269 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4CDCB3866416A36978DA5B330835D709 /* Products */,
+				27740CD09EEF7FD5D7ABF833CCE252A3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4448A9426E1D83C003ABFDB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4448A9526E1D903003ABFDB /* keyBoardButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EC1C98097FD0F88F28C79F714EB50DC4 /* Pods-keyBoardButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				55CAAA5D7379C3619476F40BAECD5724 /* Pods-keyBoardButton_Example.modulemap */,
+				BB5BC98FCFC2228606E194EB028D9ACE /* Pods-keyBoardButton_Example-acknowledgements.markdown */,
+				89CA94A28BD62D01FF3930648D5B932D /* Pods-keyBoardButton_Example-acknowledgements.plist */,
+				F04E3AF807099AF7027F0951C01479CE /* Pods-keyBoardButton_Example-dummy.m */,
+				BE006F912F6DB97D54E64E7080CF4EC3 /* Pods-keyBoardButton_Example-frameworks.sh */,
+				63755855DAA60E9F0A10F0F8FD19A8CB /* Pods-keyBoardButton_Example-Info.plist */,
+				0AF9B46E75F95D9B6E41292138BA682C /* Pods-keyBoardButton_Example-umbrella.h */,
+				B4B911CBB63369316862D6F810F392D2 /* Pods-keyBoardButton_Example.debug.xcconfig */,
+				889F253F3A905B0E31E8647490FCC309 /* Pods-keyBoardButton_Example.release.xcconfig */,
+			);
+			name = "Pods-keyBoardButton_Example";
+			path = "Target Support Files/Pods-keyBoardButton_Example";
+			sourceTree = "<group>";
+		};
+		EDF9A5E90C3614E7DC1E713CC0BE4B23 /* Pods-keyBoardButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E5D28D4116FB010A4B5367C6126F9B5F /* Pods-keyBoardButton_Tests.modulemap */,
+				1462F2CA4946E35A8BC45465AC18ED70 /* Pods-keyBoardButton_Tests-acknowledgements.markdown */,
+				5BA7C56148BDD35DFF42F9CEBC709553 /* Pods-keyBoardButton_Tests-acknowledgements.plist */,
+				577918C9A891EA678454563FD9069005 /* Pods-keyBoardButton_Tests-dummy.m */,
+				F2EEF90454F9CFF3FBB790CA54C7D546 /* Pods-keyBoardButton_Tests-Info.plist */,
+				4C452FAE9274816E0CCABC2AF01903F0 /* Pods-keyBoardButton_Tests-umbrella.h */,
+				8B3D213A8BC04310183B312C895A64AF /* Pods-keyBoardButton_Tests.debug.xcconfig */,
+				A38A98C31334538DECA9C2BBE09D0C25 /* Pods-keyBoardButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-keyBoardButton_Tests";
+			path = "Target Support Files/Pods-keyBoardButton_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		234E1D7C52CCAB0E18D60EA49717C19E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3194C5E7B48C74C5EE6CF7BCFD159A6B /* keyBoardButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D3BEDD58934020DA85A54134A2FD8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3645FAD2CDC71AF4EF8FD4FBDF42B5 /* Pods-keyBoardButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742EA941857502E09A93B99D5D8C96D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12339B29C60F6E8ADF45830A2D985325 /* Pods-keyBoardButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A21177ED592599D7E759839979931DB6 /* keyBoardButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DEBA8F1AB1F01E20335FAFA5B859706 /* Build configuration list for PBXNativeTarget "keyBoardButton" */;
+			buildPhases = (
+				234E1D7C52CCAB0E18D60EA49717C19E /* Headers */,
+				0EC7CBF555DA3F8BC4C6E88551033224 /* Sources */,
+				180F04599BE823FD0BA3163021F8B1AD /* Frameworks */,
+				332B5AFEBDA414A8ADEBE8F5CCBC0ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyBoardButton;
+			productName = keyBoardButton;
+			productReference = 404F89317582C02959C9F7933CCDC630 /* keyBoardButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6D8C491249211DF81F23B9BF4499AD9 /* Pods-keyBoardButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A76CBB8F3B06F430921A76ABBC4DA1 /* Build configuration list for PBXNativeTarget "Pods-keyBoardButton_Tests" */;
+			buildPhases = (
+				50D3BEDD58934020DA85A54134A2FD8A /* Headers */,
+				C883FEEEAB69A171BAACE573CA453A42 /* Sources */,
+				5F737F014844C4F4EA7B2E16C1330AE2 /* Frameworks */,
+				9753E205888CD1342EA998B8AE516961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7830C1DCC4CE078E0CA49154C2CCC621 /* PBXTargetDependency */,
+			);
+			name = "Pods-keyBoardButton_Tests";
+			productName = "Pods-keyBoardButton_Tests";
+			productReference = 4ABBEA0A2E5FA7D0740D3A93409DCF9A /* Pods_keyBoardButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEC6286EEC976AB0CEAD1B568EEC8945 /* Pods-keyBoardButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E26C8E4C5AD35E59E7D2D1C32DE9F24 /* Build configuration list for PBXNativeTarget "Pods-keyBoardButton_Example" */;
+			buildPhases = (
+				742EA941857502E09A93B99D5D8C96D4 /* Headers */,
+				ACED5A4D16F9705B33C4B83D94A39EE9 /* Sources */,
+				79E9DF99D3290081F6212AC43D3F83C4 /* Frameworks */,
+				3A8CCE6ECD399C3E792204D11C2BA495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3472F029ADF3213AC66F78EE0B0032B /* PBXTargetDependency */,
+			);
+			name = "Pods-keyBoardButton_Example";
+			productName = "Pods-keyBoardButton_Example";
+			productReference = F162DAD4B2971C33F265E5C045FF4DB6 /* Pods_keyBoardButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A21177ED592599D7E759839979931DB6 = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4CDCB3866416A36978DA5B330835D709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21177ED592599D7E759839979931DB6 /* keyBoardButton */,
+				AEC6286EEC976AB0CEAD1B568EEC8945 /* Pods-keyBoardButton_Example */,
+				A6D8C491249211DF81F23B9BF4499AD9 /* Pods-keyBoardButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		332B5AFEBDA414A8ADEBE8F5CCBC0ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8CCE6ECD399C3E792204D11C2BA495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9753E205888CD1342EA998B8AE516961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EC7CBF555DA3F8BC4C6E88551033224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4448A9626E1D903003ABFDB /* keyBoardButton.swift in Sources */,
+				6FD19CEBF0D3C7F4D74DE8E177F4F976 /* keyBoardButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACED5A4D16F9705B33C4B83D94A39EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9380E577E5723B6F10778BEA62D38B /* Pods-keyBoardButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C883FEEEAB69A171BAACE573CA453A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E26800B073FB975D5047D992FDCDD6 /* Pods-keyBoardButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7830C1DCC4CE078E0CA49154C2CCC621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-keyBoardButton_Example";
+			target = AEC6286EEC976AB0CEAD1B568EEC8945 /* Pods-keyBoardButton_Example */;
+			targetProxy = A7960D8B8E5BCFFAB51A34C7BF3F2FD5 /* PBXContainerItemProxy */;
+		};
+		C3472F029ADF3213AC66F78EE0B0032B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = keyBoardButton;
+			target = A21177ED592599D7E759839979931DB6 /* keyBoardButton */;
+			targetProxy = 83E77A4AE4740C5CFA139DFDD906AE3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		25FE26F4CA9F5A33085EAF7E1C4CAB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889F253F3A905B0E31E8647490FCC309 /* Pods-keyBoardButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-keyBoardButton_Example/Pods-keyBoardButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-keyBoardButton_Example/Pods-keyBoardButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3651A4286DEC69D377CFD2EE758C3138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B911CBB63369316862D6F810F392D2 /* Pods-keyBoardButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-keyBoardButton_Example/Pods-keyBoardButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-keyBoardButton_Example/Pods-keyBoardButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62B349260BCF9677086D472F98A8C3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C08885EB605997D0B96BFEABC867FB /* keyBoardButton.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/keyBoardButton/keyBoardButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/keyBoardButton/keyBoardButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/keyBoardButton/keyBoardButton.modulemap";
+				PRODUCT_MODULE_NAME = keyBoardButton;
+				PRODUCT_NAME = keyBoardButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71AE9EF79F6E4684A980115AE0E9D484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38A98C31334538DECA9C2BBE09D0C25 /* Pods-keyBoardButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-keyBoardButton_Tests/Pods-keyBoardButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-keyBoardButton_Tests/Pods-keyBoardButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D980355F6323EE13A80266639BFE5860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E8CAC544E51C8BA00E55436DCE8427 /* keyBoardButton.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/keyBoardButton/keyBoardButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/keyBoardButton/keyBoardButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/keyBoardButton/keyBoardButton.modulemap";
+				PRODUCT_MODULE_NAME = keyBoardButton;
+				PRODUCT_NAME = keyBoardButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4339075D024BCFC8213629776CE6EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3D213A8BC04310183B312C895A64AF /* Pods-keyBoardButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-keyBoardButton_Tests/Pods-keyBoardButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-keyBoardButton_Tests/Pods-keyBoardButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E26C8E4C5AD35E59E7D2D1C32DE9F24 /* Build configuration list for PBXNativeTarget "Pods-keyBoardButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3651A4286DEC69D377CFD2EE758C3138 /* Debug */,
+				25FE26F4CA9F5A33085EAF7E1C4CAB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DEBA8F1AB1F01E20335FAFA5B859706 /* Build configuration list for PBXNativeTarget "keyBoardButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B349260BCF9677086D472F98A8C3CD /* Debug */,
+				D980355F6323EE13A80266639BFE5860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A76CBB8F3B06F430921A76ABBC4DA1 /* Build configuration list for PBXNativeTarget "Pods-keyBoardButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4339075D024BCFC8213629776CE6EE3 /* Debug */,
+				71AE9EF79F6E4684A980115AE0E9D484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module keyBoardButton {
+  umbrella header "keyBoardButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

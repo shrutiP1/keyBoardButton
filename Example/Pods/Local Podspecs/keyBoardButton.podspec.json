@@ -1,0 +1,22 @@
+{
+  "name": "keyBoardButton",
+  "version": "0.1.0",
+  "summary": "A short description of keyBoardButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shrutiP1/keyBoardButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shrutiP1": "shrutipatil13798@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/shrutiP1/keyBoardButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "keyBoardButton/Classes/**/*"
+}
